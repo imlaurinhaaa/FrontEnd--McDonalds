@@ -1,0 +1,35 @@
+
+
+.esq {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    width: 60%;
+    height: 100%;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFC72C;
+    margin-bottom: 2rem;
+    width: 80%;
+    height: 28%;
+    border-radius: 2rem;
+}
+
+.contentTitle {
+    font-size: 1.5em;
+    font-weight: bolder;
+    margin-left: 1rem;
+    font-family: "Oswald", serif;
+}
+
+.contentText {
+    font-size: 1em;
+    width: 90%;
+    margin-left: 1rem;
+    font-family: "Poppins", serif;
+}
