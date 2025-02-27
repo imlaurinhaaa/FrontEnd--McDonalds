@@ -1,42 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
-.josefin-sans{
+.josefin-sans {
     font-family: "Josefin Sans", serif;
-  }
+}
 
-  .outfit{
+.outfit {
     font-family: "Outfit", serif;
-  }
+}
 
 .container {
     display: flex;
     flex-direction: column;
 }
 
-.header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #FB6B90;
-    text-align: center;
-    font-weight: bolder;
-    padding: 10px;
-}
-
-.title {
-    font-size: 2em;
-    color: #ffffff;
-    text-align: center;
-    font-family: "Josefin Sans", serif;
-}
-
 .main {
     display: flex;
-    flex-direction: row; 
+    flex-direction: row;
     justify-content: center;
     align-items: center;
-    height: 100vh; 
 }
 
 .esq {
@@ -57,44 +39,10 @@
     width: 40%;
 }
 
-.footer {
-    background-color: #FB6B90;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    font-weight: bolder;
-    height: 4rem;
-}
-
-.footerTitle {
-    font-size: 1rem;
-    color: #ffffff;
-    text-align: center;
-    font-family: "Josefin Sans", serif;
-}
-
 @media screen and (max-width: 768px) and (max-width: 1023px) {
     .container {
         display: flex;
         flex-direction: column;
-    }
-
-    .header {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: #FB6B90;
-        text-align: center;
-        font-weight: bolder;
-        padding: 10px;
-    }
-
-    .title {
-        font-size: 2em;
-        color: #ffffff;
-        text-align: center;
-        font-family: "Josefin Sans", serif;
     }
 
     .main {
@@ -102,34 +50,24 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 100vh;
     }
 
     .esq {
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         background-color: #ffffff;
+        margin-top: 2rem;
         width: 90%;
     }
 
     .dir {
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         background-color: #ffffff;
-        width: 90%;
-    }
-
-    .footer {
-        height: auto;
-        padding: 1rem;
-    }
-
-    .footerTitle {
-        font-size: 1rem;
-        color: #ffffff;
-        text-align: center;
-        font-family: "Josefin Sans", serif;
+        width: 80%;
     }
 }

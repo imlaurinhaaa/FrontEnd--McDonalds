@@ -1,6 +1,8 @@
 import styles from "../styles/Home.module.css";
 import Content from "../components/Content";
 import Aside from "../components/Aside"
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 import rareBeauty from "../public/rareBeauty.jpg";
 import dior from "../public/dior.jpg";
 import fentyBeauty from "../public/fentyBeauty.jpg";
@@ -9,9 +11,7 @@ import makeups from "../public/makeups.jpg";
 export default function Home() {
     return (
         <div className={styles.container}>
-            <header className={styles.header}>
-                <h1 className={styles.title}>Beauty Internacional Makeup 💋✨</h1>
-            </header>
+            <Header title="Beauty Internacional Makeup 💋✨" />
             <main className={styles.main}>
             <section className={styles.esq}>
                 <Content title="Rare Beauty 🎀" text="A Rare Beauty é uma marca de maquiagem criada pela talentosa Selena Gomez, que traz produtos inovadores e inclusivos para realçar a beleza única de cada pessoa! 💖✨ Com foco em fórmulas leves, de alta performance e adequadas para todos os tons de pele, a Rare Beauty é perfeita para quem busca uma maquiagem que valorize a autenticidade e o conforto. 🌈💄 #BeRare #RareBeauty" image={rareBeauty} />
@@ -22,9 +22,7 @@ export default function Home() {
                 <Aside title="Perfect Combo 💋✨💕" image={makeups} />
                 </section>
             </main>
-            <footer className={styles.footer}>
-                <p className={styles.footerTitle}>&copy; 2025 Beauty Internacional Makeup. Todos os direitos reservados.</p>
-            </footer>
+            <Footer title="&copy; 2025 Beauty Internacional Makeup. Todos os direitos reservados." />
         </div>
     );
 }
