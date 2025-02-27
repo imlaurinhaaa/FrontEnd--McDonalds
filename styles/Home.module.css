@@ -1,13 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
-.poppins-regular {
-    font-family: "Poppins", serif;
-}
+.josefin-sans{
+    font-family: "Josefin Sans", serif;
+  }
 
-.oswald {
-    font-family: "Oswald", serif;
-}
+  .outfit{
+    font-family: "Outfit", serif;
+  }
+
 .container {
     display: flex;
     flex-direction: column;
@@ -17,7 +18,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #DA291C;
+    background-color: #FB6B90;
     text-align: center;
     font-weight: bolder;
     padding: 10px;
@@ -25,16 +26,9 @@
 
 .title {
     font-size: 2em;
-    color: #FFC72C;
+    color: #ffffff;
     text-align: center;
-    font-family: "Oswald", serif;
-}
-
-.imgLogo {
-    width: 3%;
-    height: 3%;
-    object-fit: contain;
-    margin-left: 1rem; ;
+    font-family: "Josefin Sans", serif;
 }
 
 .main {
@@ -45,8 +39,26 @@
     height: 100vh; 
 }
 
+.esq {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    width: 60%;
+}
+
+.dir {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    width: 40%;
+}
+
 .footer {
-    background-color: #DA291C;
+    background-color: #FB6B90;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -57,7 +69,67 @@
 
 .footerTitle {
     font-size: 1rem;
-    color: #FFC72C;
+    color: #ffffff;
     text-align: center;
-    font-family: "Oswald", serif;
+    font-family: "Josefin Sans", serif;
+}
+
+@media screen and (max-width: 768px) and (max-width: 1023px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #FB6B90;
+        text-align: center;
+        font-weight: bolder;
+        padding: 10px;
+    }
+
+    .title {
+        font-size: 2em;
+        color: #ffffff;
+        text-align: center;
+        font-family: "Josefin Sans", serif;
+    }
+
+    .main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .esq {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #ffffff;
+        width: 90%;
+    }
+
+    .dir {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #ffffff;
+        width: 90%;
+    }
+
+    .footer {
+        height: auto;
+        padding: 1rem;
+    }
+
+    .footerTitle {
+        font-size: 1rem;
+        color: #ffffff;
+        text-align: center;
+        font-family: "Josefin Sans", serif;
+    }
 }
