@@ -39,3 +39,19 @@
         color : #ffffff;
     }
 }
+
+@media screen and (max-width: 767px) {
+    .imgTitle {
+        font-size: 2em;
+        font-weight: bolder;
+        color: #FB6B90;
+        font-family: "Josefin Sans", serif;
+        text-align: center;
+    }
+
+    .imgContainer {
+        display: flex;
+        justify-content: center;
+        color : #ffffff;
+    }
+}

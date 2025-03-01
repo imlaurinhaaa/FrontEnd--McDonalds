@@ -28,6 +28,7 @@
     align-items: center;
     background-color: #ffffff;
     width: 60%;
+    margin-top: 2rem;
 }
 
 .dir {
@@ -40,6 +41,39 @@
 }
 
 @media screen and (max-width: 768px) and (max-width: 1023px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .esq {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #ffffff;
+        margin-top: 2rem;
+        width: 90%;
+    }
+
+    .dir {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #ffffff;
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 767px) {
     .container {
         display: flex;
         flex-direction: column;

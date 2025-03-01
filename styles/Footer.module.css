@@ -32,3 +32,21 @@
         font-family: "Josefin Sans", serif;
     }
 }
+
+@media screen and (max-width: 767px) {
+    .footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-weight: bolder;
+        height: 4rem;
+    }
+
+    .footerTitle {
+        font-size: 0.8rem;
+        color: #ffffff;
+        text-align: center;
+        font-family: "Josefin Sans", serif;
+    }
+}
